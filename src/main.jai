@@ -34,11 +34,6 @@ _main :: () #c_call {
     }));
 }
 
-#program_export
-_step :: () #c_call {
-
-}
-
 init :: () #c_call {
     push_context,defer_pop default_context;
 

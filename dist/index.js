@@ -4240,7 +4240,7 @@ function sapp_js_set_favicon(w,h,pixels) { const canvas = document.createElement
       switch (log_flag) {
         case /* ERROR */   0x1: { console.error(string); } break;
         case /* WARNING */ 0x2: { console.warn(string); } break;
-        case /* CONTENT */ 0x4: { console.info(`%c${string}`, "color: rgb(57, 73, 171, 1);"); } break;
+        case /* CONTENT */ 0x4: { console.info(`%c${string}`, "color: #3949ab;"); } break;
         default:                { console.log(string); }
       }
       // Module.print(string);
